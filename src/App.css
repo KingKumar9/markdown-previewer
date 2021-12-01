@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p > code {
+  padding: 3px;
+}
+
+code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid #224b4b;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.container {
+  width: 100vw;
+  height: auto;
+  background-color: #394a55;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.titleContainer {
+  width: 100%;
+  height: auto;
+  background-color: #2b373f;
+  text-align: center;
+  border-bottom: 3px solid #101518;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  text-transform: uppercase;
+  word-spacing: 15px;
+  letter-spacing: 1px;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 50px;
 }
+
+.bodyContainer {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  border-bottom: 3px solid #101518;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputContainer, .outputContainer {
+  width: 50%;
+  height: auto;
+  margin: 30px;
+}
+
+.inputTitle, .outputTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 30px;
+  background-color: #232e35;
+  border: 2px solid #101518;
+}
+
+.editor, .preview {
+  width: 100%;
+  padding: 30px;
+  border: 3px solid #101518;
+}
+
+.editor {
+  height: 500px;
+}
+
+.preview {
+  height: auto;
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.preview > * {
+  margin: 25px;
+}
+
