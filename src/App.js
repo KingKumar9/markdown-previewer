@@ -1,7 +1,7 @@
 import React from 'react';
 import { marked } from 'marked';
 import './App.css';
-import rawMarkdown from './markdown'
+import rawMarkdown from './markdown.js'
 
 
 class App extends React.Component {
