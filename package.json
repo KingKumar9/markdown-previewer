@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kingkumar9.github.io/markdown-previewer/",
   "name": "markdown-previewer",
+  "homepage": "https://kingkumar9.github.io/markdown-previewer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
